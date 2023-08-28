@@ -1,4 +1,5 @@
-This is forked the [guardian coding exercises](https://github.com/guardian/coding-exercises).
+* Source: [guardian coding exercises](https://github.com/guardian/coding-exercises).
+* In README, in first section it lists out the instructions of the exercises. In second section it lists the structure of my codes.
 
 Can you beat the dealer at 21
 ======================================
@@ -24,7 +25,7 @@ Can you beat the dealer at 21
 
 # My solutions
 
-Updated Aug 28, 2023
+* Updated Aug 28, 2023
 Using Object Oriented Programming concepts to create the program.
 
 * Import the random module

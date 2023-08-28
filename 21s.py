@@ -14,7 +14,7 @@ class Card:
 class Deck:
     def __init__(self):
         self.cards = []
-        suits = ["Hearts", "Diamonds", "Clubs", "Spades"]
+        suits = ["Spades ♠", "Hearts ♥", "Diamonds ♦", "Clubs ♣"]
         ranks = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"]
         for suit in suits:
             for rank in ranks:
@@ -92,20 +92,20 @@ class Game:
         dealer_score = self.dealer.get_value()
 
         if sam_score > 21:
-            print("Sam busts. Dealer wins.")
+            print("\033[1;33m Sam busts. Dealer wins!\033[m")
         elif dealer_score > 21:
-            print("Dealer busts. Sam wins.")
+            print("\033[1;33m Dealer busts. Sam wins!\033[m")
         elif sam_score > dealer_score:
-            print("Sam wins!")
+            print("\033[1;33m Sam wins!\033[m")
         elif sam_score < dealer_score:
-            print("Dealer wins!")
+            print("\033[1;33m Dealer wins!\033[m")
         else:
-            print("It's a tie!")
+            print("\033[0;33m It's a tie.\033[m")
 
 
 # Main game loop
 def main():
-    print('❤️♥️♣️♦️ 21s')
+    print('\033[1;31m 21s ❤️♥️♦️♣️\033[m')
     game = Game()
     game.play()
 
