@@ -30,6 +30,6 @@
 * Import the random module
 * Create Class Card, Deck, Hand, Game
 * Class Deck: shuffle the cards and get deck ready
-* Class Hand: caculate value (card score)
+* Class Hand: calculate value (card score)
 * Class Card: present both card and value
 * Class Game: run the game in command line
