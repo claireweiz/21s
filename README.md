@@ -1,3 +1,5 @@
+## Description
+
 I have divided the README into two sections: 
 * The [first section](https://github.com/claireweiz/21s#can-you-beat-the-dealer-at-21) includes instructions from the [Guardian coding exercises](https://github.com/guardian/coding-exercises). 
 * The [second section](https://github.com/claireweiz/21s#my-solutions) details the structure of my code.
