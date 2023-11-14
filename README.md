@@ -1,7 +1,8 @@
-* Source: [guardian coding exercises](https://github.com/guardian/coding-exercises).
-* In README [first section](https://github.com/claireweiz/21s#can-you-beat-the-dealer-at-21), it lists out the instructions of the exercises. In [second section](https://github.com/claireweiz/21s#my-solutions), it lists the structure of my codes.
+* There are two sections in README. 
+* In the [first section](https://github.com/claireweiz/21s#can-you-beat-the-dealer-at-21), it's the coding instruction from the [Guardian coding exercises](https://github.com/guardian/coding-exercises) repo. 
+* In the [second section](https://github.com/claireweiz/21s#my-solutions), it's my thought process and code structure.
 
-## Can you beat the dealer at 21
+## Can you beat the dealer at 21?
 
 
 #### Model the game
@@ -26,10 +27,12 @@
 ## My solutions
 
 * Updated Aug 28, 2023
-* Using Object Oriented Programming concepts to create the program.
+* I used an object-oriented programming structure to create the program
+
+How I did this task:
 * Import the random module
-* Create Class Card, Deck, Hand, Game
-* Class Deck: shuffle the cards and get deck ready
-* Class Hand: calculate value (card score)
-* Class Card: present both card and value
-* Class Game: run the game in command line
+* Create the following classes: Deck, Hand, Card, and Game
+* class Deck: shuffle the cards and get deck ready
+* class Hand: calculate value (card score)
+* class Card: present both card and value
+* class Game: run the game in command line
