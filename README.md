@@ -1,6 +1,6 @@
-* There are two sections in README. 
-* In the [first section](https://github.com/claireweiz/21s#can-you-beat-the-dealer-at-21), it's the coding instruction from the [Guardian coding exercises](https://github.com/guardian/coding-exercises) repo. 
-* In the [second section](https://github.com/claireweiz/21s#my-solutions), it's my thought process and code structure.
+I have divided the README into two sections: 
+* The [first section](https://github.com/claireweiz/21s#can-you-beat-the-dealer-at-21) includes instructions from the [Guardian coding exercises](https://github.com/guardian/coding-exercises). 
+* The [second section](https://github.com/claireweiz/21s#my-solutions) details the structure of my code.
 
 ## Can you beat the dealer at 21?
 
@@ -26,13 +26,14 @@
 
 ## My solutions
 
-* Updated Aug 28, 2023
-* I used an object-oriented programming structure to create the program
+Updated Aug 28, 2023
+
+I used an object-oriented programming structure to create the program
 
 How I did this task:
-* Import the random module
-* Create the following classes: Deck, Hand, Card, and Game
-* class Deck: shuffle the cards and get deck ready
-* class Hand: calculate value (card score)
-* class Card: present both card and value
-* class Game: run the game in command line
+* Imported the random module
+* Created the following classes: Deck, Hand, Card, and Game
+* Deck: shuffle the cards and get the deck ready
+* Hand: calculate the value (card score)
+* Card: present both the card and value
+* Game: run the game in the command line
